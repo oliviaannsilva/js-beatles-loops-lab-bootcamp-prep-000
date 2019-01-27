@@ -24,3 +24,12 @@ i++;
 }
 return newArray;
 }
+
+function iLoveTheBeatles(n){
+var strings=[];
+do{
+n++;
+strings.push(`I love the Beatles!`)
+}while (n < 15);
+return strings;
+}
